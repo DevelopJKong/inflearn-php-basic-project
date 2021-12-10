@@ -1,4 +1,8 @@
 <?php
-require_once './bootstrap/app.php';
+ require_once './bootstrap/app.php';
+?>
+<?php require_once 'layouts/top.php'; ?>
 
-echo 'Hello, world';
+<h1>Hello world</h1>
+
+<?php require_once 'layouts/bottom.php'; ?>
