@@ -3,6 +3,7 @@
 ?>
 <?php require_once 'layouts/top.php'; ?>
 
-<h1>Hello world</h1>
+<h1>hello</h1>
+
 
 <?php require_once 'layouts/bottom.php'; ?>
