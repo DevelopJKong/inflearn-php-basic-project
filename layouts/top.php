@@ -7,7 +7,7 @@
     <title>phpblog - <?=$_SERVER[REQUEST_URI] ?? '' ?></title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+KR:400,500&display=swap&subset=korean">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css">
-    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="/php_inflearn_board/app.css">
 </head>
 <body>
     <div id="app">
