@@ -22,7 +22,7 @@ if ($email && $password && hash_equals($token, $_SESSION['CSRF_TOKEN'])) {
     if($user) {
         if(password_verify($password, $user['password'])){
             $_SESSION['user'] = $user;
-            return header('Location: /');
+            return header('Location: /php_inflearn_board/');
         }
     }
 }
