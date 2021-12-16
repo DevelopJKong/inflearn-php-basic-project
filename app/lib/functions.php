@@ -22,7 +22,7 @@ function redirect($url)
     return http_response_code() == 302;
 }
 
-function reject($code) 
+function reject($code = null) 
 {
     switch ($code) {
         case 400:
