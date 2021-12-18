@@ -19,13 +19,13 @@ $_SESSION['CSRF_TOKEN'] = bin2hex(random_bytes(32));
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
                     <li><a href="/php_inflearn_board/">Home</a></li>
-                    <li><a href="/php_inflearn_board/user/register.php">Register</a></li>
+                    <li><a href="/php_inflearn_board/user/register">Register</a></li>
                     <?php if (array_key_exists('user', $_SESSION)) : ?>
-                        <li><a href="/php_inflearn_board/user/update.php">My Page</a></li>
-                        <li><a href="/php_inflearn_board/post/write.php">Write</a></li>
-                        <li><a href="/php_inflearn_board/auth/logout.php">Sign out</a></li>
+                        <li><a href="/php_inflearn_board/user/update">My Page</a></li>
+                        <li><a href="/php_inflearn_board/post/write">Write</a></li>
+                        <li><a href="/php_inflearn_board/auth/logout">Sign out</a></li>
                     <?php else : ?>
-                        <li><a href="/php_inflearn_board/auth/login.php">Sign in</a></li>
+                        <li><a href="/php_inflearn_board/auth/login">Sign in</a></li>
                     <?php endif; ?>
                 </ul>
             </div>
