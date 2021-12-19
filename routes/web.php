@@ -7,7 +7,13 @@ return [
     ['/auth/logout','get','auth.logout'],
     ['/user/register','get','user.create'],
     ['/user/register','post','user.store'],
-    ['/user/register','get','user.edit'],
-    ['/user/register','post','user.update'],
+    ['/user/update','get','user.edit'],
+    ['/user/update','post','user.update'],
+    ['/post/read','get','post.show'],
+    ['/post/write','get','post.create'],
+    ['/post/write','get','post.store'],
+    ['/post/update','get','post.edit'],
+    ['/post/update','get','post.update'],
+    ['/post/delete','get','post.delete'],
 
 ];

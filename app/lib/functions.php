@@ -144,7 +144,7 @@ function transform($posts)
             compact('username', 'content'),
             [
                 'created_at' => date('h:i A, M j', strtotime($post['created_at'])),
-                'url'        => "/post/read.php?id=" . $post['id']
+                'url'        => "/post/read?id=" . $post['id']
             ]
         );
         return array_merge($post, $mappings);

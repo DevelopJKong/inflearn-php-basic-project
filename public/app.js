@@ -7,7 +7,7 @@
  if ($editor instanceof HTMLElement) {
    BalloonEditor.create($editor, {
      ckfinder: {
-       uploadUrl: '/php_inflearn_board/image/upload.php'
+       uploadUrl: '/php_inflearn_board/image'
      }
    }).then(editor => {
      editor.editing.view.focus()

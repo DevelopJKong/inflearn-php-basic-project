@@ -2,7 +2,7 @@
 
 $routes = [];
 
-foreach(['web'] as $route) {
+foreach(['web','api'] as $route) {
     $routes = array_merge(require_once dirname(__DIR__,2). "/ROUTES/{$route}.php",$routes);
 }
 
